@@ -1,7 +1,7 @@
 Hello, world
 
 *Italic*\
-**Bold**\
+**Bold**
 # Heading 1
 ## Heading 2
 [Link](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FImage&psig=AOvVaw1cyyk-0Nh87iuMRBwGErZD&ust=1642215198130000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDKtL6esPUCFQAAAAAdAAAAABAD)\
@@ -16,7 +16,7 @@ Hello, world
 Horizontal rule:
 
 ---\
-`Inline code` with backticks\
+`Inline code` with backticks
 ```
 # code block
 print '3 backticks or'
