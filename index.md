@@ -1,3 +1,4 @@
 Hello, world
-*Italic*
+
+*Italic*\
 **Bold**
