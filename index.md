@@ -6,7 +6,7 @@
 **Picture of the symptom** 
 ![Image](symptom1.png)
 **Description** \
-The symptom/code behavior that occured in this section is that an infinite loop occured. The bug was that the 
+The symptom/code behavior that occured in this section is that an infinite loop occured. I fixed this by returning something if 
 
 # Code Change 2
 **Screenshot of code changes**
