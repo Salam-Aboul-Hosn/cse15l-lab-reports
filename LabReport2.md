@@ -6,7 +6,7 @@
 **Picture of the symptom** 
 ![Image](symptom1.png)
 **Description** \
-
+What happened in this section is that an infinite loop occured. 
 
 # Code Change 2
 **Screenshot of code changes**
