@@ -6,7 +6,7 @@
 **Picture of the symptom** 
 ![Image](symptom1.png)
 **Description** \
-The symptom/code behavior that occured in this section is that an infinite loop occured. I fixed this by returning something if 
+The symptom/code behavior that occured in this section is that an infinite loop occured. I fixed this by returning something if nextOpenBracket was equal to -1 because if it equaled -1 then there was no nextOpenBracket and it would jump out of the loop.
 
 # Code Change 2
 **Screenshot of code changes**
