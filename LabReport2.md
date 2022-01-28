@@ -6,6 +6,7 @@
 **Picture of the symptom** 
 ![Image](symptom1.png)
 **Description**
+Hi
 
 # Code Change 2
 **Screenshot of code changes**
