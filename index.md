@@ -26,4 +26,4 @@ The symptom/code behavior that occured in this section is that the link wasn't p
 **Picture of the symptom** 
 ![Image](symptom3.png)
 **Description** \
-The symptom/code behavior that occured in this section is that an infinite loop occured. 
+The symptom/code behavior that occured in this section is that an infinite loop occured. So I added break statements in order to break out of the loop when neccessary.
