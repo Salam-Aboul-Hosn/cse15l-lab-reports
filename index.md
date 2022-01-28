@@ -16,7 +16,7 @@ The symptom/code behavior that occured in this section is that an infinite loop 
 **Picture of the symptom** 
 ![Image](symptom2.png)
 **Description** \
-The symptom/code behavior that occured in this section is that the link wasn't print out entirely. Although it ran properly it did not print out the full output that it was intended to print out. I fixed this bug by 
+The symptom/code behavior that occured in this section is that the link wasn't print out entirely. Although it ran properly it did not print out the full output that it was intended to print out. I fixed this bug by combining the closed bracket and the open paranthesis so that it would print the entire output.
 
 # Code Change 3
 **Screenshot of code changes**
