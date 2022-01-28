@@ -6,7 +6,7 @@
 **Picture of the symptom** 
 ![Image](symptom1.png)
 **Description** \
-What happened in this section is that an infinite loop occured. 
+The symptom/code behavior that occured in this section is that an infinite loop occured. 
 
 # Code Change 2
 **Screenshot of code changes**
@@ -16,6 +16,7 @@ What happened in this section is that an infinite loop occured.
 **Picture of the symptom** 
 ![Image](symptom2.png)
 **Description** \
+The symptom/code behavior that occured in this section is that the link was print out entirely.
 
 # Code Change 3
 **Screenshot of code changes**
@@ -25,3 +26,4 @@ What happened in this section is that an infinite loop occured.
 **Picture of the symptom** 
 ![Image](symptom3.png)
 **Description** \
+The symptom/code behavior that occured in this section is that an infinite loop occured. 
