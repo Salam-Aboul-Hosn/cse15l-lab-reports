@@ -6,7 +6,7 @@
 **Picture of the symptom** 
 ![Image](symptom1.png)
 **Description** \
-The symptom/code behavior that occured in this section is that an infinite loop occured. I fixed this by returning something if nextOpenBracket was equal to -1 because if it equaled -1 then there was no nextOpenBracket and it would jump out of the loop.
+The bug was the code not being able to acknowledge input with text after the links. As a result the symptom/code behavior that occured in this section is that an infinite loop occured. I fixed this by returning something if nextOpenBracket was equal to -1 because if it equaled -1 then there was no nextOpenBracket and it would jump out of the loop.
 
 # Code Change 2
 **Screenshot of code changes**
@@ -16,7 +16,7 @@ The symptom/code behavior that occured in this section is that an infinite loop 
 **Picture of the symptom** 
 ![Image](symptom2.png)
 **Description** \
-The symptom/code behavior that occured in this section is that the link wasn't print out entirely. Although it ran properly it did not print out the full output that it was intended to print out. I fixed this bug by combining the closed bracket and the open paranthesis so that it would print the entire output.
+The bug was The symptom/code behavior that occured in this section is that the link wasn't print out entirely. Although it ran properly it did not print out the full output that it was intended to print out. I fixed this bug by combining the closed bracket and the open paranthesis so that it would print the entire output.
 
 # Code Change 3
 **Screenshot of code changes**
@@ -26,4 +26,4 @@ The symptom/code behavior that occured in this section is that the link wasn't p
 **Picture of the symptom** 
 ![Image](symptom3.png)
 **Description** \
-The symptom/code behavior that occured in this section is that an infinite loop occured. So I added break statements in order to break out of the loop when neccessary.
+The bug was the while loop was repeating itself because there wasn't an opening parenthesis and a closing bracket in the input. As a result the symptom/code behavior that occured in this section is that an infinite loop occured. So I added break statements in order to break out of the loop when neccessary.
