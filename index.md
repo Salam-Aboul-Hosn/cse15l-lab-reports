@@ -16,7 +16,7 @@ The bug was the code not being able to acknowledge input with text after the lin
 **Picture of the symptom** 
 ![Image](symptom2.png)
 **Description** \
-The bug was The symptom/code behavior that occured in this section is that the link wasn't print out entirely. Although it ran properly it did not print out the full output that it was intended to print out. I fixed this bug by combining the closed bracket and the open paranthesis so that it would print the entire output.
+The program was working properly with no bug, however it didn't have the proper output. The symptom/code behavior that occured in this section is that the link wasn't print out entirely. Although it ran properly it did not print out the full output that it was intended to print out. I fixed this bug by combining the closed bracket and the open paranthesis so that it would print the entire output.
 
 # Code Change 3
 **Screenshot of code changes**
