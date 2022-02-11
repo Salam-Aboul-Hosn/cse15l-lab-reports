@@ -1,7 +1,7 @@
 # Editing file
 ![Image](StreamLine1.png) \
 **Description** \
-
+This is a screeen shot of me editing my config file with the 'nano' text editor. 'nano' is a text editor for mac.
 # Command logging you into my account
 ![Image](StreamLine1.png) \
 **Description** \
