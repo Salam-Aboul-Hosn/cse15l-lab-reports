@@ -5,7 +5,7 @@ This is a screeen shot of me editing my config file with the 'nano' text editor.
 # Command logging you into my account
 ![Image](StreamLine1.png) \
 **Description** \
-
+This is screen shot of me logging into my account.
 # Command copying a file to my account
 ![Image](StreamLine1.png) \
 **Description** \
