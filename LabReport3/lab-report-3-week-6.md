@@ -6,7 +6,7 @@ This is a screeen shot of me editing my config file with the `nano` text editor.
 ##Command logging you into my account
 ![Image](StreamLine2.png) \
 **Description** \
-This is screen shot of me logging into my account. Instead of having to type in my entire account name all I had to do now was 'ssh ieng6'.
+This is screen shot of me logging into my account. Instead of having to type in my entire account name all I had to do now was `ssh ieng6`.
 ## Command copying a file to my account
 ![Image](StreamLine3.png) \
 **Description** \
