@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import org.junit.*; //import the junit library
 
@@ -14,6 +16,42 @@ public class MarkdownParseTest { // create a class called MarkdownParseTest
     }
 
     @Test
+    public void testlab1() throws IOException {
+        Path fileName = Path.of("./labtest1.md");
+        String contents = Files.readString(fileName);
+        ArrayList<String> links = MarkdownParse.getLinks(contents);
+        ArrayList<String> expected = (ArrayList<String>) Arrays.asList(
+                new String[] { "url.com", "`google.com", "google.com", "ucsd.edu" });
+        assertEquals(links.size(), 4);
+        assertEquals(links.toString(), expected.toString());
+
+    }
+
+    @Test
+    public void testlab2() throws IOException {
+        Path fileName = Path.of("./labtest2.md");
+        String contents = Files.readString(fileName);
+        ArrayList<String> links = MarkdownParse.getLinks(contents);
+        ArrayList<String> expected = (ArrayList<String>) Arrays.asList(
+                new String[] { "b.com", "a.com(())", "example.com" });
+        assertEquals(links.size(), 3);
+        assertEquals(links.toString(), expected.toString());
+
+    }
+
+    @Test
+    public void testlab3() throws IOException {
+        Path fileName = Path.of("./labtest3.md");
+        String contents = Files.readString(fileName);
+        ArrayList<String> links = MarkdownParse.getLinks(contents);
+        ArrayList<String> expected = (ArrayList<String>) Arrays.asList(
+                new String[] { "https://www.twitter.com", "google.com", "ucsd.edu" });
+        assertEquals(links.size(), 3);
+        assertEquals(links.toString(), expected.toString());
+
+    }
+
+    @Test
     public void testGetLinks() throws IOException {
         String[] args = { "test-file.md" };
         Path fileName = Path.of(args[0]);
@@ -21,18 +59,6 @@ public class MarkdownParseTest { // create a class called MarkdownParseTest
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         assertEquals(links.toString(),
                 "[https://something.com, some-page.html]");
-    }
-
-    @Test
-    public void testlab1() throws IOException {
-        Path fileName = Path.of(
-                "/Users/salamaboulhosn/Documents/GitHub/cse15l-lab-reports/markdown-parse-main/markdown-parse/labtest1.md");
-        String contents = Files.readString(fileName);
-        ArrayList<String> links = MarkdownParse.getLinks(contents);
-        List<String> expected = List.of(
-                new String[] { "`google.com", "google.com", "ucsd.edu" });
-        assertEquals(links.toString(), expected.toString());
-
     }
 
     @Test
