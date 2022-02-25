@@ -24,6 +24,18 @@ public class MarkdownParseTest { // create a class called MarkdownParseTest
     }
 
     @Test
+    public void testlab1() throws IOException {
+        Path fileName = Path.of(
+                "/Users/salamaboulhosn/Documents/GitHub/cse15l-lab-reports/markdown-parse-main/markdown-parse/labtest1.md");
+        String contents = Files.readString(fileName);
+        ArrayList<String> links = MarkdownParse.getLinks(contents);
+        List<String> expected = List.of(
+                new String[] { "`google.com", "google.com", "ucsd.edu" });
+        assertEquals(links.toString(), expected.toString());
+
+    }
+
+    @Test
     public void testGetLinks2() throws IOException {
         String[] args = { "new-test.md" };
         Path fileName = Path.of(args[0]);
