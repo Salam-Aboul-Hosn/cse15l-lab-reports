@@ -11,7 +11,7 @@
 ## Test Method 2 On Their Repo
 ![Image](TestOnTheirRepo2.png) 
 
-## Test Method 3 On Their Repo
+## Test Method 3 On Their Repo (Infinit Loop Error)
 ![Image](TestOnTheirRepo3.png) 
 
 ## Code Snippet 1
