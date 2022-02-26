@@ -7,13 +7,20 @@
 
 ## Test Method 1 On Their Repo
 ![Image](TestOnTheirRepo1.png) 
+**Failed Test Description** \
+
 
 ## Test Method 2 On Their Repo
 ![Image](TestOnTheirRepo2.png) 
+**Failed Test Description** \
 
-## Test Method 3 On Their Repo (Infinit Loop Error)
+
+## Test Method 3 On Their Repo 
 ![Image](TestOnTheirRepo3.png) 
+**Failed Test Description** \
 
+
+# How can I Make my Program Work?
 ## Code Snippet 1
 ![Image](Test1.png) \
 **Description on how to fix it** \
