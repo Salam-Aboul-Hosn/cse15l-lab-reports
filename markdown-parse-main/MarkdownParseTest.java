@@ -17,36 +17,36 @@ public class MarkdownParseTest { // create a class called MarkdownParseTest
 
     @Test
     public void testlab1() throws IOException {
-        Path fileName = Path.of("./labtest1.md");
+        Path fileName = Path
+                .of("/Users/salamaboulhosn/Documents/GitHub/cse15l-lab-reports/markdown-parse-main/labtest1.md");
         String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        ArrayList<String> expected = (ArrayList<String>) Arrays.asList(
-                new String[] { "url.com", "`google.com", "google.com", "ucsd.edu" });
-        assertEquals(links.size(), 4);
+        List<String> expected = List.of(
+                new String[] { "`google.com" });
         assertEquals(links.toString(), expected.toString());
 
     }
 
     @Test
     public void testlab2() throws IOException {
-        Path fileName = Path.of("./labtest2.md");
+        Path fileName = Path
+                .of("/Users/salamaboulhosn/Documents/GitHub/cse15l-lab-reports/markdown-parse-main/labtest2.md");
         String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        ArrayList<String> expected = (ArrayList<String>) Arrays.asList(
-                new String[] { "b.com", "a.com(())", "example.com" });
-        assertEquals(links.size(), 3);
+        List<String> expected = List.of(
+                new String[] { "a.com", "a.com(())", "example.com" });
         assertEquals(links.toString(), expected.toString());
 
     }
 
     @Test
     public void testlab3() throws IOException {
-        Path fileName = Path.of("./labtest3.md");
+        Path fileName = Path
+                .of("/Users/salamaboulhosn/Documents/GitHub/cse15l-lab-reports/markdown-parse-main/labtest3.md");
         String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        ArrayList<String> expected = (ArrayList<String>) Arrays.asList(
-                new String[] { "https://www.twitter.com", "google.com", "ucsd.edu" });
-        assertEquals(links.size(), 3);
+        List<String> expected = List.of(
+                new String[] { "https://ucsd-cse15l-w22.github.io/" });
         assertEquals(links.toString(), expected.toString());
 
     }
