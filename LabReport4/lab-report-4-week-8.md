@@ -1,9 +1,9 @@
 # Lab Report 4
 ## Link To My Markdown Parse
-[LinkToMyMarkDownParse](https://github.com/Salam-Aboul-Hosn/cse15l-lab-reports/tree/main/markdown-parse-main) \
+[LinkToMyMarkDownParse](https://github.com/Salam-Aboul-Hosn/cse15l-lab-reports/tree/main/markdown-parse-main) 
 
 ## Link To The Markdown Parse I reviewed
-[LinkToTheMarkDownParseIReviewed](https://github.com/aajc/markdown-parse) \
+[LinkToTheMarkDownParseIReviewed](https://github.com/aajc/markdown-parse) 
 
 ## Code Snippet 1
 ![Image](Test1.png) \
