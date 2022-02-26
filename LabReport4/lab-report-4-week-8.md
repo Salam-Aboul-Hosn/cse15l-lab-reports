@@ -8,17 +8,17 @@
 ## Test Method 1 On Their Repo
 ![Image](TestOnTheirRepo1.png) 
 **Failed Test Description** \
-
+- Test failed and only accounted for the link with the backtick and not the other
 
 ## Test Method 2 On Their Repo
 ![Image](TestOnTheirRepo2.png) 
 **Failed Test Description** \
-
+- Test failed and made a mistake with the paranthesis
 
 ## Test Method 3 On Their Repo 
 ![Image](TestOnTheirRepo3.png) 
 **Failed Test Description** \
-- Test is failed and is an infinite loop
+- Test failed and is an infinite loop
 
 # How can I Make my Program Work?
 ## Code Snippet 1
