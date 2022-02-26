@@ -23,15 +23,15 @@
 # How can I Make my Program Work?
 ## Code Snippet 1
 ![Image](Test1.png) \
-**Description on how to fix it** \
+**Description on how to fix it** 
 - The code output included url.com as a link but it is not a link. 
 - I would be able to fix this in less than ten lines 
 - I would need to stop looking for open brackets if I am inside a code block.
 
 ## Code Snippet 2
 ![Image](Test2.png) \
-**Description on how to fix it** \
+**Description on how to fix it** 
 
 ## Code Snippet 3
 ![Image](Test3.png) \
-**Description on how to fix it** \
+**Description on how to fix it** 
