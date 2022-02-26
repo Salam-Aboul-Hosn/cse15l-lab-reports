@@ -31,7 +31,13 @@
 ## Code Snippet 2
 ![Image](Test2.png) \
 **Description on how to fix it** 
+- I failed to account for the links that contain extra parentheses and brackets. 
+- It would probably take more than ten lines to fix this problem and account for extra brackets and parentheses that are not part of the link formatting along with all the other escape characters.
 
 ## Code Snippet 3
 ![Image](Test3.png) \
 **Description on how to fix it** 
+- For this snippet, all of the links contained new lines in them, and my program didn't recognize any of them. 
+- I could probably take ten lines or less to ignore white space and account for the links.
+- I could ingnore white spaces by changing the regular expression to account of the spaces
+
