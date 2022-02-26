@@ -24,8 +24,9 @@
 ## Code Snippet 1
 ![Image](Test1.png) \
 **Description on how to fix it** \
-The code output included url.com as a link but it is not a link. I would be able to fix this in less than ten lines 
-and I would need to stop looking for open brackets if I am inside a code block.
+- The code output included url.com as a link but it is not a link. 
+- I would be able to fix this in less than ten lines 
+- I would need to stop looking for open brackets if I am inside a code block.
 
 ## Code Snippet 2
 ![Image](Test2.png) \
