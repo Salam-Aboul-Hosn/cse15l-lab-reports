@@ -25,7 +25,9 @@
 
 ### Fixing the code for test file 506
 ![Image](mine.png) 
-This image shows my repository
+This image shows my repository due to the fact that the expected output was different than my output for the test file 506. In order to fix my code and make sure that the actual output matches the expected output (Which is making sure that my code outputs a link rather than empty brackets) I could
 
 ### Fixing the code for test file 510
 ![Image](their.png) 
+This image shows their repository due to the fact that the expected output was different than their output for the test file 510. In order to fix their code and make sure that the actual output matches the expected output (Which is making sure that their code outputs a emtpy brackets rather than a link) I could
+
