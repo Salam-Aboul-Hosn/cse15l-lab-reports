@@ -9,12 +9,12 @@
 
 ## Test Method 470
 ### Different outputs
-![Image]() 
+![Image](Pic1.png) 
 **Description** 
 - Test failed and made a mistake with the paranthesis
 
 ## Test Method 533
 ### Different outputs
-![Image]() 
-**Test Description** 
+![Image](Pic1.png) 
+**Description** 
 - Test failed and is an infinite loop
