@@ -27,7 +27,7 @@
 ![Image](testfiles.png) 
 ### Fixing my code for test file 506
 ![Image](mine.png) 
-This image shows my repository due to the fact that the expected output was different than my output for the test file 506. In order to fix my code and make sure that the actual output matches the expected output (Which is making sure that my code outputs a link rather than empty brackets) I could
+This image shows my repository due to the fact that the expected output was different than my output for the test file 506. As shown in the contents of test file 506 it would seem like my program does not account for quotation mark symbols. In order to fix my code and make sure that the actual output matches the expected output (Which is making sure that my code outputs a link rather than empty brackets) I could add quotation marks in the second part of line 39 of my code in order to account for the quotation marks. And potentially fix this problem in order to print out a url instead of empty brackets.
 
 ### Fixing Joes code for test file 510
 ![Image](.png) 
