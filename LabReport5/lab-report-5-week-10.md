@@ -24,5 +24,7 @@
 - As you can see the expected output is empty. Thus signifying that the output with the empty bracket is the correct one. Which is my markdownparse
 
 ### Fixing the code for test file 506
+![Image](their.png) 
 
 ### Fixing the code for test file 510
+![Image](mine.png) 
