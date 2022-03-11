@@ -10,11 +10,15 @@
 ## Test Method 470
 ### Different outputs
 ![Image](T.png) 
+### Expected output
+![Image](expected1.png) 
 **Description** 
 - Test failed and made a mistake with the paranthesis
 
 ## Test Method 533
 ### Different outputs
 ![Image](T1.png) 
+### Expected output
+![Image](expected.png) 
 **Description** 
 - Test failed and is an infinite loop
