@@ -22,3 +22,7 @@
 ![Image](Realexpected1.png) 
 **Description** 
 - As you can see the expected output is empty. Thus signifying that the output with the empty bracket is the correct one.
+
+### Fixing the code
+
+### Fixing the code
