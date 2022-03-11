@@ -13,7 +13,7 @@
 ### Expected output
 ![Image](Realexpected.png) 
 **Description** 
-- The link is the right one
+- As you can see the expected output is a url. Thus signifying that the output with the url at the top is the correct one.
 
 ## Test File 510
 ### Different outputs
@@ -21,4 +21,4 @@
 ### Expected output
 ![Image](Realexpected1.png) 
 **Description** 
-- Empty bracket is the right one
+- As you can see the expected output is empty. Thus signifying that the output with the empty bracket is the correct one.
