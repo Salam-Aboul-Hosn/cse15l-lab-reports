@@ -23,11 +23,11 @@
 **Description** 
 - As you can see the expected output is empty. Thus signifying that the output with the empty bracket is the correct one. Which is my markdownparse
 
-### Fixing the code for test file 506
+### Fixing my code for test file 506
 ![Image](mine.png) 
 This image shows my repository due to the fact that the expected output was different than my output for the test file 506. In order to fix my code and make sure that the actual output matches the expected output (Which is making sure that my code outputs a link rather than empty brackets) I could
 
-### Fixing the code for test file 510
+### Fixing Joes code for test file 510
 ![Image](.png) 
 This image shows their repository due to the fact that the expected output was different than their output for the test file 510. In order to fix Joes code and make sure that the actual output matches the expected output (Which is making sure that their code outputs a emtpy brackets rather than a link) I could
 
