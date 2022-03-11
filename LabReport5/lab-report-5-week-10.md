@@ -31,5 +31,5 @@ This image shows my repository due to the fact that the expected output was diff
 
 ### Fixing Joes code for test file 510
 ![Image](.png) 
-This image shows their repository due to the fact that the expected output was different than their output for the test file 510. In order to fix Joes code and make sure that the actual output matches the expected output (Which is making sure that their code outputs a emtpy brackets rather than a link) I could
+This image shows their repository due to the fact that the expected output was different than their output for the test file 510. As shown in the contents of test file 510 it would seem Joes program does not account for the space in between the closing bracket and the opening paranthesis .In order to fix Joes code and make sure that the actual output matches the expected output (Which is making sure that their code outputs a emtpy brackets rather than a link) I could add an if statement in the markdownparse in order to specifically account for spaces and if there are any I would return an empty bracket due to the fact that it is not a link.
 
