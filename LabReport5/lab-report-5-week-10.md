@@ -13,7 +13,7 @@
 ### Expected output
 ![Image](Realexpected.png) 
 **Description** 
-- Test failed and made a mistake with the paranthesis
+- The link is the right one
 
 ## Test File 510
 ### Different outputs
@@ -21,4 +21,4 @@
 ### Expected output
 ![Image](Realexpected1.png) 
 **Description** 
-- Test failed and is an infinite loop
+- Empty bracket is the right one
