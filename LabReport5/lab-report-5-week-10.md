@@ -7,7 +7,7 @@
 - I ran multiple commands such as make, chmod +x script.sh, and ./script.sh | cat > results.txt
 - After than I ran the diff command in order to get the different test results
 
-## Test File 470
+## Test File 506
 ### Different outputs
 ![Image](T.png) 
 ### Expected output
@@ -15,7 +15,7 @@
 **Description** 
 - Test failed and made a mistake with the paranthesis
 
-## Test File 533
+## Test File 510
 ### Different outputs
 ![Image](T1.png) 
 ### Expected output
