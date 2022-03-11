@@ -6,12 +6,14 @@
 - I ran multiple commands such as make, chmod +x script.sh, and ./script.sh | cat > results.txt
 - After than I ran the diff command in order to get the different test results
 
-## Test Method 1
-![Image]() 
+## Test Method 470
+### Different outputs
+![Image](differoutput1.png) 
 **Description** 
 - Test failed and made a mistake with the paranthesis
 
-## Test Method 2 
-![Image]() 
+## Test Method 533
+### Different outputs
+![Image](differoutput2.png) 
 **Test Description** 
 - Test failed and is an infinite loop
