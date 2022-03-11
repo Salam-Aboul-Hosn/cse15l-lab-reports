@@ -14,6 +14,6 @@
 
 ## Test Method 533
 ### Different outputs
-![Image](differoutpu2.png) 
+![Image](differoutput2.png) 
 **Test Description** 
 - Test failed and is an infinite loop
